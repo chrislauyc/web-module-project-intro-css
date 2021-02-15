@@ -18,14 +18,63 @@ font-size: 100%;
 font: inherit;  
 vertical-align: baseline;  
 }
-header{
-    background-image:url('./assets/header_img.jpg');
+html{
+    font-size:16px;
+    font-size:64.5%;
 }
-nav ul li{
-    display:inline;
+body{
+    background-color:rgb(220, 224, 233);
 }
-
-
-footer{
-    background-image:url('./assets/footer_img.jpg');
+header, main, footer{
+    font-size:2rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header, footer{
+    text-align:center;
+}
+header h1{
+    font-size:6rem;
+    padding:1%;
+    margin: auto;
+}
+header img{
+    display:block;
+    max-width: 100%;
+    max-height: 100%;
+    margin:auto;
+}
+nav {
+    background-color:black;
+    width: 100%;
+}
+nav li{
+    display:inline-block;
+    /* allows anchor text to determine width. Why? */
+    padding:1% 1%;
+}
+nav li:hover{
+    background-color:#ddd;
+    transition-duration: 0.5s;
+}
+nav a{
+    font-size:3rem;
+    text-decoration: none;
+    color:white;
+}
+nav li:hover a{
+    color:black;
+}
+/* , section.history, section.fire, section.arrival */
+section.welcome, section.history, section.fire, section.arrival{
+    display:flex;
+    justify-content: space-evenly;
+}
+section .left-box, section .right-box{
+    padding:5%;
+    width:50%;
+    margin:auto;
+}
+section img{
+    max-height: 100%;
+    max-width: 100%;
 }
