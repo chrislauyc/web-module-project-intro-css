@@ -101,6 +101,10 @@ section.guide img{
     width:50%;
     margin:auto;
 }
+footer{
+    background-color: #F9E7DC;
+    padding-bottom:1%;
+}
 .footer-image-container{
     height:25vw;
     padding:0;
