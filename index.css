@@ -1,4 +1,6 @@
-/* html, body, div, span, applet, object, iframe,  
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+html, body, div, span, applet, object, iframe,  
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
 a, abbr, acronym, address, big, cite, code,  
 del, dfn, em, img, ins, kbd, q, s, samp,  
@@ -17,19 +19,25 @@ border: 0;
 font-size: 100%;  
 font: inherit;  
 vertical-align: baseline;  
-} */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+}
+
+
 
 html{
     font-family: 'Roboto Mono', monospace;
     font-size:16px;
     font-size:64.5%;
+    color:black;
 }
+
 body{
     background-color:white;
     text-align:center;
     font-size:2rem;
+}
+nav{
+    text-align:center;
+    padding:1% 0;
 }
 img{
     max-width: 100%;
@@ -42,6 +50,7 @@ a {
 section{
     margin:2% auto;
 }
+
 nav ul li{
     display:inline-block;
     padding:1.5% 1% 1.5% 1%;
@@ -49,9 +58,7 @@ nav ul li{
     margin:auto 5%;
     color:white;
 }
-header nav{
-    text-align:center;
-}
+
 li.plan-link{
     background-color: #FF764E;
 }
@@ -68,10 +75,12 @@ header .header-flex-container{
 header .header-flex-container .header-flex-image{
     width:30%;
     padding:1%;
+    margin-left:10%;
 }
 header .header-flex-container .header-flex-text{
     margin:auto;
 }
+
 #second-paragraph{
     width:40%;
     margin:auto;
@@ -100,6 +109,7 @@ section.guide .guide-container{
 section.guide img{
     width:50%;
     margin:auto;
+    
 }
 footer{
     background-color: #F9E7DC;
