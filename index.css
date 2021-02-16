@@ -65,16 +65,40 @@ nav li:hover a{
     color:black;
 }
 /* , section.history, section.fire, section.arrival */
-section.welcome, section.history, section.fire, section.arrival{
+
+section.welcome, section.history{
+    width:60%;
+    margin:auto;
+    text-align:center;
+}
+section.welcome h2, section.history h2{
+    font-size:5rem;
+    padding:5%;
+}
+section.welcome p, section.history p{
+    width:60%;
+    margin:auto;
+}
+section.fire, section.arrival{
     display:flex;
     justify-content: space-evenly;
+    width:70%;
+    margin:auto;
 }
 section .left-box, section .right-box{
-    padding:5%;
     width:50%;
     margin:auto;
 }
 section img{
     max-height: 100%;
     max-width: 100%;
+    display:block;
+    margin:auto;
+}
+section.fire p, section.arrival p{
+    width:50%;
+    margin:auto;
+}
+.separator{
+    margin:7% auto;
 }
